@@ -22,7 +22,7 @@ int dcal [] = { // Calibracion de ADC a Distancia
 
 int ADCcal [] = {
 
-  177, 189, 231, 273, 372, 483, 558, 742, 970};
+  177, 189, 231, 273, 372, 483, 558, 742, 970}; // lecturas del sensor
 
 int lastDist; // Valor anterior de Distancia para calcular la Velocidad
 
@@ -58,7 +58,7 @@ void setup()
 
   analogReference(EXTERNAL); // AREF conectado a 3.3V
 
-  myservo.attach(12);  // attaches the servo on pin X to the servo object 
+  myservo.attach(12);  // servo en pin 12
 
   Serial.begin(115200);
 
@@ -80,7 +80,7 @@ void loop()
 
     // Medimos DISTANCIA
 
-    measure = analogRead(sensorPin);
+    measure = analogRead(sensorPin); // lectura del sensor
 
     measure = constrain(measure, ADCcal[0], ADCcal[8]);
 
