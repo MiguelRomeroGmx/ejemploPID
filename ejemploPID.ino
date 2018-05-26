@@ -82,7 +82,7 @@ void loop()
 
     measure = analogRead(sensorPin); // lectura del sensor
 
-    measure = constrain(measure, ADCcal[0], ADCcal[8]);
+    measure = constrain(measure, ADCcal[0], ADCcal[8]);  // ajuste a valores minimos y maximos
 
     lastDist = dist; // Guardamos el valor anterior de dist para calcular la velocidad
 
