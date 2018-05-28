@@ -22,7 +22,7 @@ int dcal [] = { // Calibracion de ADC a Distancia
 
 int ADCcal [] = {
 
-  177, 189, 231, 273, 372, 483, 558, 742, 970}; // lecturas del sensor
+  177, 189, 231, 273, 372, 483, 558, 742, 970}; // lecturas del sensor sharp
 
 int lastDist; // Valor anterior de Distancia para calcular la Velocidad
 
@@ -38,7 +38,7 @@ float I; // Valor Integral
 
 
 
-#include <Servo.h> 
+#include <Servo.h>  //libreria servoss
 
 Servo myservo;  // create servo object to control a servo
 
