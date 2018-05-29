@@ -18,7 +18,7 @@ int measure; // Lo que mide el sensor. Son ADCs.
 
 int dcal [] = { // Calibracion de ADC a Distancia
 
-  -193, -160, -110, -60, 0, 40, 60, 90, 120};
+  -193, -160, -110, -60, 0, 40, 60, 90, 120}; // ajustes con las medidas de la barra
 
 int ADCcal [] = {
 
