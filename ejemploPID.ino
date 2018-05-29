@@ -1,16 +1,16 @@
-float Kp =2; //2
+float Kp =1.2; //2
 
-float Kd = 35; //35
+float Kd = 32; //35
 
-float Ki =0.1; //0.1
+float Ki =0.12; //0.1
 
 int Rint = 8;
 
-int Rext = 40;
+int Rext = 38;
 
 unsigned long time = 0; // tiempo de ejecucion del ultimo ciclo
 
-int period = 50; // Periodo de muestreo en ms
+int period = 24; // Periodo de muestreo en ms
 
 int sensorPin=0; //Pin Analogico donde esta conectada la señal del Sensor de distancia
 
