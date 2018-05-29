@@ -152,81 +152,81 @@ void loop()
 
 
 
-    if(1){ //Envio para PROCESSING
+    // if(1){ //Envio para PROCESSING
 
-      Serial.print(dist+200);
+    //   Serial.print(dist+200);
 
-      Serial.print(",");
+    //   Serial.print(",");
 
-      Serial.print(dist+200);
+    //   Serial.print(dist+200);
 
-      Serial.print(",");   
+    //   Serial.print(",");   
 
-      Serial.print(vel);
+    //   Serial.print(vel);
 
-      Serial.print(",");
+    //   Serial.print(",");
 
-      Serial.print(vel);
+    //   Serial.print(vel);
 
-      Serial.print("$");
+    //   Serial.print("$");
 
-    }
+    // }
 
-    if(0){ // Debug
+    // if(0){ // Debug
 
-      Serial.print(millis());
+    //   Serial.print(millis());
 
-      Serial.print(" ms|dist: ");
+    //   Serial.print(" ms|dist: ");
 
-      Serial.print(dist);
+    //   Serial.print(dist);
 
-      Serial.print("|vel: ");
+    //   Serial.print("|vel: ");
 
-      Serial.print(vel);
+    //   Serial.print(vel);
 
-      Serial.print("|Kp*dist: ");
+    //   Serial.print("|Kp*dist: ");
 
-      Serial.print(Kp*dist);
+    //   Serial.print(Kp*dist);
 
-      Serial.print("|Kd*vel: ");
+    //   Serial.print("|Kd*vel: ");
 
-      Serial.print(Kd*vel);    
+    //   Serial.print(Kd*vel);    
 
-      Serial.print("|Int: ");
+    //   Serial.print("|Int: ");
 
-      Serial.print(I);    
+    //   Serial.print(I);    
 
-      Serial.print("|pos: ");
+    //   Serial.print("|pos: ");
 
-      Serial.println(pos);
+    //   Serial.println(pos);
 
-    }
+    // }
 
-    if(0){// Para calibrar sensor de Distancia
+    // if(0){// Para calibrar sensor de Distancia
 
-      Serial.print(dist);
+    //   Serial.print(dist);
 
-      Serial.print("mm     ADC: ");    
+    //   Serial.print("mm     ADC: ");    
 
-      Serial.println(measure); 
+    //   Serial.println(measure); 
 
-    }
+    // }
 
-    if(0){ // DeBug Velocidades
+    // if(0){ // DeBug Velocidades
 
-      for (int i=0; i<(nvel); i++){
+    //   for (int i=0; i<(nvel); i++){
 
-        Serial.print(v[i]);
+    //     Serial.print(v[i]);
 
-        Serial.print(",");
+    //     Serial.print(",");
 
-      }
+    //   }
 
-      Serial.print("       vel:");
+    //   Serial.print("       vel:");
 
-      Serial.println(vel);
+    //   Serial.println(vel);
 
-    }
+    // }
 
   }
 
